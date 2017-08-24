@@ -1,0 +1,26 @@
+.ReactBash {
+  //using omportant for overriding custom styles
+  height: 70%!important;
+  width: 600px!important;
+
+  div {
+    &:last-child {
+      background: #030303!important;
+
+      form {
+        span {
+          color: #e7d0d2!important;
+        }
+
+        input {
+          color: #e7d5d5!important;
+
+          &:focus {
+            outline: none!important;
+            outline-offset: 0!important
+          }
+        }
+      }
+    }
+  }
+}

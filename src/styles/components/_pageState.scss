@@ -1,0 +1,29 @@
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .content-container {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    h1 {
+      color: gray;
+
+      span {
+        color: red;
+      }
+    }
+    p {
+      font-weight: 500;
+      color: grey;
+      font-size: 50;
+    }
+  }
+}
