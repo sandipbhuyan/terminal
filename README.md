@@ -32,7 +32,12 @@ When that's done, install the project dependencies. It is recommended that you u
 ```bash
 $ yarn  # Install project dependencies (or `npm install`)
 ```
+## Contributing on the project
 
+```bash
+$ git flow init
+$ git flow feature start <feature-name>
+```
 ## Running the Project
 
 After completing the [installation](#installation) step, you're ready to start the project!
